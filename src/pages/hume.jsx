@@ -3,8 +3,8 @@ import Controls from "@/components/Controls";
 import Messages from "@/components/Messages";
 import { VoiceProvider } from "@humeai/voice-react";
 
-const accessToken = "YOUR_HARD_CODED_ACCESS_TOKEN";
-const secretKey = "YOUR_HARD_CODED_SECRET_KEY";
+const accessToken = "kRMrhCBbNdXvjBV7noMsMe5tA85HAd014cMllyU8IpABQky0";
+const secretKey = "kRMrhCBbNdXvjBV7noMsMe5tA85HAd014cMllyU8IpABQky0";
 
 export default function HumePage() {
   return (
