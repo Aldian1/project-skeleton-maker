@@ -21,7 +21,7 @@ export function CardVoice() {
     (<div
       className="flex flex-col items-center justify-center h-screen bg-background">
       <Card
-        className={`p-8 rounded-2xl shadow-lg w-full max-w-md transition-colors duration-500 ${
+        className={`p-8 rounded-2xl shadow-lg w-full max-w-lg h-96 transition-colors duration-500 ${
           isRecording ? "bg-red-500" : ""
         } ${isFlipped ? "rotate-y-180" : ""} transform-style-3d`}>
         <CardContent
