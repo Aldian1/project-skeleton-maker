@@ -4,7 +4,6 @@ import Messages from "@/components/Messages";
 import { VoiceProvider } from "@humeai/voice-react";
 
 const accessToken = "kRMrhCBbNdXvjBV7noMsMe5tA85HAd014cMllyU8IpABQky0";
-const secretKey = "kRMrhCBbNdXvjBV7noMsMe5tA85HAd014cMllyU8IpABQky0";
 
 export default function HumePage() {
   return (
