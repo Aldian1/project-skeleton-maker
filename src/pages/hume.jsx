@@ -3,7 +3,7 @@ import Controls from "@/components/Controls";
 import Messages from "@/components/Messages";
 import { VoiceProvider } from "@humeai/voice-react";
 
-const accessToken = "YOUR_HARD_CODED_ACCESS_TOKEN";
+const accessToken = process.env.REACT_APP_HUME_ACCESS_TOKEN;
 
 export default function HumePage() {
   return (
