@@ -12,10 +12,7 @@ export function CardVoice() {
     setIsRecording(false)
   }
   const handleSave = () => {
-    setIsFlipped(true)
-    setTimeout(() => {
-      setIsFlipped(false)
-    }, 1000)
+
   }
   return (
     (<div
